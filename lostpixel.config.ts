@@ -5,8 +5,8 @@ export const config: CustomProjectConfig = {
     storybookUrl: "./storybook-static",
   },
   // OSS mode
-  // generateOnly: true,
-  // failOnDifference: true,
+  generateOnly: true,
+  failOnDifference: true,
   lostPixelProjectId: process.env.LOST_PIXEL_PROJECT_ID,
   apiKey: process.env.LOST_PIXEL_API_KEY,
 };
